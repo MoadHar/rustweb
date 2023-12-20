@@ -1,17 +1,11 @@
 [package]
-<<<<<<< HEAD
-name = "todo_app"
-=======
 name = "web_todo"
->>>>>>> 9e889ac (bigbang: first assembly from 2 and 3 folders)
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-<<<<<<< HEAD
-=======
 actix-web = "4.0.1"
->>>>>>> 9e889ac (bigbang: first assembly from 2 and 3 folders)
 serde_json = "1.0.59"
+serde = { version = "1.0.136", features = ["derive"]}
